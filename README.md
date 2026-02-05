@@ -1,9 +1,9 @@
 # Emergency-Locator-Transmitter-ELT-
-Overview
+#Overview
 
 This project implements an end-to-end IoT emergency location tracking system using ESP32 microcontrollers, LoRa (915 MHz), and GPS. The system is designed for low-power operation and real-time cloud connectivity, enabling reliable location transmission during emergency events.
 
-System Architecture
+#System Architecture
 
 Briefly describe how the system is divided into two main parts:
 
@@ -13,7 +13,7 @@ Receiver gateway (ESP32 + LoRa + Wi-Fi + Cloud)
 
 Include a block diagram image here if available.
 
-Features
+#Features
 
 Low-power embedded firmware using ESP32 deep sleep
 
@@ -29,7 +29,7 @@ Wi-Fi gateway with REST API cloud integration
 
 Real-time location visualization on cloud dashboards
 
-Hardware Components
+#Hardware Components
 
 ESP32 microcontroller (Transmitter and Receiver)
 
@@ -45,15 +45,15 @@ Battery power supply
 
 Software Stack
 
-Programming language: C++ (Arduino framework)
+#Programming language: C++ (Arduino framework)
 
-Wireless protocols: LoRa, Wi-Fi
+#Wireless protocols: LoRa, Wi-Fi
 
-Cloud platforms: Adafruit IO, ThingSpeak
+#Cloud platforms: Adafruit IO, ThingSpeak
 
 Communication protocols: SPI, UART, HTTP REST APIs
 
-Operating Modes
+#Operating Modes
 
 Deep Sleep (ARM mode): system idle with ultra-low power consumption
 
@@ -61,7 +61,7 @@ Emergency Mode: GPS powered on and location transmitted periodically
 
 Gateway Mode: LoRa reception and cloud data forwarding
 
-Data Flow
+#Data Flow
 
 Device remains in deep sleep until emergency button is pressed
 
